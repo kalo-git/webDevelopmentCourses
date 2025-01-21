@@ -1,0 +1,104 @@
+Here are **LeetCode-style questions** for the JavaScript addition operator. Each includes a problem statement and input-output constraints. 
+
+---
+
+### **1. Add Two Integers**  
+**Problem Statement:**  
+Write a function `addTwoNumbers(a, b)` that takes two integers `a` and `b` and returns their sum.  
+
+**Constraints:**  
+- `-10^3 ≤ a, b ≤ 10^3`
+
+---
+
+### **2. Concatenate Strings**  
+**Problem Statement:**  
+Write a function `concatenateStrings(str1, str2)` that takes two strings `str1` and `str2` and returns their concatenation.  
+
+**Constraints:**  
+- `1 ≤ str1.length, str2.length ≤ 100`
+
+---
+
+### **3. Mixed Addition**  
+**Problem Statement:**  
+Write a function `mixedAddition(a, b)` that takes two inputs, where one is a string and the other is a number. Return the result of adding them.  
+
+**Constraints:**  
+- `a` or `b` will always be a string, the other will always be a number.  
+- `1 ≤ |a| ≤ 100`  
+- `-10^3 ≤ b ≤ 10^3`
+
+---
+
+### **4. Sum of Array Elements**  
+**Problem Statement:**  
+Write a function `sumArray(nums)` that takes an array of numbers and returns their sum.  
+
+**Constraints:**  
+- `1 ≤ nums.length ≤ 10^3`  
+- `-10^3 ≤ nums[i] ≤ 10^3`
+
+---
+
+### **5. String to Integer Addition**  
+**Problem Statement:**  
+Write a function `addStringAndNumber(str, num)` that converts the string `str` to an integer and adds it to the number `num`.  
+
+**Constraints:**  
+- `str` will always represent a valid integer.  
+- `-10^3 ≤ int(str), num ≤ 10^3`
+
+---
+
+### **6. Evaluate Mixed Array Sum**  
+**Problem Statement:**  
+Write a function `evaluateSum(arr)` that takes an array containing both strings and numbers. It should return the sum of all elements, converting strings to numbers before summing.  
+
+**Constraints:**  
+- `1 ≤ arr.length ≤ 100`  
+- Each element of `arr` will be a string or a number.  
+- All strings in the array will represent valid integers.
+
+---
+
+### **7. Add Two Big Numbers**  
+**Problem Statement:**  
+Write a function `addBigNumbers(num1, num2)` that takes two large numbers represented as strings and returns their sum as a string.  
+
+**Constraints:**  
+- `1 ≤ |num1|, |num2| ≤ 10^5`  
+- Both `num1` and `num2` will represent valid positive integers.
+
+---
+
+### **8. Custom Sum with Null and Undefined**  
+**Problem Statement:**  
+Write a function `customSum(a, b)` that returns the sum of `a` and `b`, where:  
+- If either `a` or `b` is `null`, treat it as `0`.  
+- If either `a` or `b` is `undefined`, treat it as `1`.  
+
+**Constraints:**  
+- `a` and `b` can be `null`, `undefined`, or integers.  
+
+---
+
+### **9. Nested Object Sum**  
+**Problem Statement:**  
+Write a function `nestedObjectSum(obj)` that takes a nested object and returns the sum of all its numeric values.  
+
+**Constraints:**  
+- The object can contain nested objects, arrays, numbers, or strings.  
+- Numbers may be positive or negative.  
+
+---
+
+### **10. Evaluate Expression**  
+**Problem Statement:**  
+Write a function `evaluateExpression(expr)` that takes a mathematical expression as a string containing only numbers, `+`, and spaces, and returns the result.  
+
+**Constraints:**  
+- `1 ≤ expr.length ≤ 10^3`  
+- The input will always be a valid expression in the form of `"num1 + num2 + num3 + ..."`.  
+
+Let me know if you'd like me to refine any of these!
